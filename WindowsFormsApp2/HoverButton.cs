@@ -15,13 +15,12 @@ namespace WindowsFormsApp2
         protected Font font;
         public HoverButton() : base()
         {
-            ForeColor = Color.LightBlue;
+            brush = new SolidBrush(Color.DarkBlue);
             font = new Font("Times New Roman",
-                20,
+                25,
                 FontStyle.Bold,
                 GraphicsUnit.Point,
                 0);
-            brush = new SolidBrush(ForeColor);
         }
     }
 }

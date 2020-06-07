@@ -28,49 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.hoverButtonG1 = new WindowsFormsApp2.HoverButtonG();
-            this.hoverButttonGC1 = new WindowsFormsApp2.HoverButttonGC();
+            this.gal = new WindowsFormsApp2.HoverButtonG();
+            this.galc = new WindowsFormsApp2.HoverButttonGC();
             this.SuspendLayout();
             // 
-            // hoverButtonG1
+            // gal
             // 
-            this.hoverButtonG1.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoverButtonG1.ForeColor = System.Drawing.Color.White;
-            this.hoverButtonG1.Location = new System.Drawing.Point(12, 12);
-            this.hoverButtonG1.Name = "hoverButtonG1";
-            this.hoverButtonG1.Size = new System.Drawing.Size(223, 222);
-            this.hoverButtonG1.TabIndex = 0;
-            this.hoverButtonG1.Text = "hoverButtonG1";
-            this.hoverButtonG1.UseVisualStyleBackColor = true;
+            this.gal.ForeColor = System.Drawing.Color.LightBlue;
+            this.gal.Location = new System.Drawing.Point(62, 43);
+            this.gal.Name = "gal";
+            this.gal.Size = new System.Drawing.Size(173, 167);
+            this.gal.TabIndex = 0;
+            this.gal.Text = "hoverButtonG1";
+            this.gal.UseVisualStyleBackColor = true;
             // 
-            // hoverButttonGC1
+            // galc
             // 
-            this.hoverButttonGC1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoverButttonGC1.ForeColor = System.Drawing.Color.LightBlue;
-            this.hoverButttonGC1.Location = new System.Drawing.Point(250, 12);
-            this.hoverButttonGC1.Name = "hoverButttonGC1";
-            this.hoverButttonGC1.Size = new System.Drawing.Size(225, 231);
-            this.hoverButttonGC1.TabIndex = 1;
-            this.hoverButttonGC1.Text = "hoverButttonGC1";
-            this.hoverButttonGC1.UseVisualStyleBackColor = true;
+            this.galc.ForeColor = System.Drawing.Color.LightBlue;
+            this.galc.Location = new System.Drawing.Point(379, 37);
+            this.galc.Name = "galc";
+            this.galc.Size = new System.Drawing.Size(180, 173);
+            this.galc.TabIndex = 1;
+            this.galc.Text = "hoverButttonGC1";
+            this.galc.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 266);
-            this.Controls.Add(this.hoverButttonGC1);
-            this.Controls.Add(this.hoverButtonG1);
+            this.ClientSize = new System.Drawing.Size(661, 261);
+            this.Controls.Add(this.galc);
+            this.Controls.Add(this.gal);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
 
+
         #endregion
 
-        private HoverButtonG hoverButtonG1;
-        private HoverButttonGC hoverButttonGC1;
+        private HoverButtonG gal;
+        private HoverButttonGC galc;
     }
 }
 
